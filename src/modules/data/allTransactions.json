@@ -1,0 +1,592 @@
+[{
+    "_id":{
+      "timestamp":1542806752,
+      "machineIdentifier":7161695,
+      "processIdentifier":5766,
+      "counter":12265162,
+      "time":1542806752000,
+      "date":"2018-11-21T13:25:52.000+0000",
+      "timeSecond":1542806752
+    },
+    "additionalInformation":{
+      "name":"Tankstelle / Treibstoffkosten",
+      "additionalProperties":{
+
+      }
+    },
+    "amount":{
+      "value":18.0,
+      "additionalProperties":{
+
+      }
+    },
+    "bookingDate":"2018-11-14T12:00:00Z",
+    "creditor":"WESTFALEN AG",
+    "cleanPurpose":"2016-10-13T14:35:26 0 2019-02",
+    "additionalProperties":{
+
+    },
+    "_class":"backend.model.Transaction"
+  },
+  {
+    "_id":{
+      "timestamp":1542806752,
+      "machineIdentifier":7161695,
+      "processIdentifier":5766,
+      "counter":12265162,
+      "time":1542806752000,
+      "date":"2018-11-21T13:25:52.000+0000",
+      "timeSecond":1542806752
+    },
+    "additionalInformation":{
+      "additionalProperties":{
+
+      }
+    },
+    "amount":{
+      "value":18.0,
+      "additionalProperties":{
+
+      }
+    },
+    "bookingDate":"2018-11-14T12:00:00Z",
+    "creditor":"WESTFALEN AG",
+    "cleanPurpose":"2016-10-13T14:35:26 0 2019-02",
+    "additionalProperties":{
+
+    },
+    "_class":"backend.model.Transaction"
+  },
+  {
+    "_id":{
+      "timestamp":1542806962,
+      "machineIdentifier":7161695,
+      "processIdentifier":5766,
+      "counter":12266409,
+      "time":1542806962000,
+      "date":"2018-11-21T13:29:22.000+0000",
+      "timeSecond":1542806962
+    },
+    "additionalInformation":{
+      "name":"Tankstelle / Treibstoffkosten",
+      "additionalProperties":{
+
+      }
+    },
+    "amount":{
+      "value":18.0,
+      "additionalProperties":{
+
+      }
+    },
+    "bookingDate":"2018-11-14T12:00:00Z",
+    "creditor":"WESTFALEN AG",
+    "cleanPurpose":"2016-10-13T14:35:26 0 2019-02",
+    "additionalProperties":{
+
+    },
+    "_class":"backend.model.Transaction"
+  },
+  {
+    "_id":{
+      "timestamp":1542806962,
+      "machineIdentifier":7161695,
+      "processIdentifier":5766,
+      "counter":12266409,
+      "time":1542806962000,
+      "date":"2018-11-21T13:29:22.000+0000",
+      "timeSecond":1542806962
+    },
+    "additionalInformation":{
+      "additionalProperties":{
+
+      }
+    },
+    "amount":{
+      "value":18.0,
+      "additionalProperties":{
+
+      }
+    },
+    "bookingDate":"2018-11-14T12:00:00Z",
+    "creditor":"WESTFALEN AG",
+    "cleanPurpose":"2016-10-13T14:35:26 0 2019-02",
+    "additionalProperties":{
+
+    },
+    "_class":"backend.model.Transaction"
+  },
+  {
+    "_id":{
+      "timestamp":1542806962,
+      "machineIdentifier":7161695,
+      "processIdentifier":5766,
+      "counter":12266351,
+      "time":1542806962000,
+      "date":"2018-11-21T13:29:22.000+0000",
+      "timeSecond":1542806962
+    },
+    "additionalInformation":{
+      "name":"Online-Shop (Fallback)",
+      "additionalProperties":{
+
+      }
+    },
+    "amount":{
+      "value":15.0,
+      "additionalProperties":{
+
+      }
+    },
+    "bookingDate":"2018-11-12T12:00:00Z",
+    "creditor":"AMAZON EU S.A R.L., NIEDERLASSUNG DEUTSCHLAND",
+    "cleanPurpose":"303-8475049-4953167 Amazon.de 2917791005763931",
+    "additionalProperties":{
+
+    },
+    "_class":"backend.model.Transaction"
+  },
+  {
+    "_id":{
+      "timestamp":1542806962,
+      "machineIdentifier":7161695,
+      "processIdentifier":5766,
+      "counter":12266351,
+      "time":1542806962000,
+      "date":"2018-11-21T13:29:22.000+0000",
+      "timeSecond":1542806962
+    },
+    "additionalInformation":{
+      "additionalProperties":{
+
+      }
+    },
+    "amount":{
+      "value":15.0,
+      "additionalProperties":{
+
+      }
+    },
+    "bookingDate":"2018-11-12T12:00:00Z",
+    "creditor":"AMAZON EU S.A R.L., NIEDERLASSUNG DEUTSCHLAND",
+    "cleanPurpose":"303-8475049-4953167 Amazon.de 2917791005763931",
+    "additionalProperties":{
+
+    },
+    "_class":"backend.model.Transaction"
+  },
+  {
+    "_id":{
+      "timestamp":1542806962,
+      "machineIdentifier":7161695,
+      "processIdentifier":5766,
+      "counter":12266353,
+      "time":1542806962000,
+      "date":"2018-11-21T13:29:22.000+0000",
+      "timeSecond":1542806962
+    },
+    "additionalInformation":{
+      "name":"Online-Shop (Fallback)",
+      "additionalProperties":{
+
+      }
+    },
+    "amount":{
+      "value":40.0,
+      "additionalProperties":{
+
+      }
+    },
+    "bookingDate":"2018-11-12T12:00:00Z",
+    "creditor":"AMAZON EU S.A R.L., NIEDERLASSUNG DEUTSCHLAND",
+    "cleanPurpose":"303-7023762-2813958 Amazon.de 1175222583357527",
+    "additionalProperties":{
+
+    },
+    "_class":"backend.model.Transaction"
+  },
+  {
+    "_id":{
+      "timestamp":1542806962,
+      "machineIdentifier":7161695,
+      "processIdentifier":5766,
+      "counter":12266353,
+      "time":1542806962000,
+      "date":"2018-11-21T13:29:22.000+0000",
+      "timeSecond":1542806962
+    },
+    "additionalInformation":{
+      "additionalProperties":{
+
+      }
+    },
+    "amount":{
+      "value":40.0,
+      "additionalProperties":{
+
+      }
+    },
+    "bookingDate":"2018-11-12T12:00:00Z",
+    "creditor":"AMAZON EU S.A R.L., NIEDERLASSUNG DEUTSCHLAND",
+    "cleanPurpose":"303-7023762-2813958 Amazon.de 1175222583357527",
+    "additionalProperties":{
+
+    },
+    "_class":"backend.model.Transaction"
+  },
+  {
+    "_id":{
+      "timestamp":1542806962,
+      "machineIdentifier":7161695,
+      "processIdentifier":5766,
+      "counter":12266352,
+      "time":1542806962000,
+      "date":"2018-11-21T13:29:22.000+0000",
+      "timeSecond":1542806962
+    },
+    "additionalInformation":{
+      "name":"Geldautomat (Auszahlung)",
+      "additionalProperties":{
+
+      }
+    },
+    "amount":{
+      "value":74.0,
+      "additionalProperties":{
+
+      }
+    },
+    "bookingDate":"2018-11-11T12:00:00Z",
+    "creditor":"Hamburger Volksbank",
+    "cleanPurpose":"2016-10-10T08:42:09 0 2019-02 Fremdentgelt 3,95 EUR",
+    "additionalProperties":{
+
+    },
+    "_class":"backend.model.Transaction"
+  },
+  {
+    "_id":{
+      "timestamp":1542806962,
+      "machineIdentifier":7161695,
+      "processIdentifier":5766,
+      "counter":12266354,
+      "time":1542806962000,
+      "date":"2018-11-21T13:29:22.000+0000",
+      "timeSecond":1542806962
+    },
+    "additionalInformation":{
+      "name":"Schnell-Restaurant",
+      "additionalProperties":{
+
+      }
+    },
+    "amount":{
+      "value":14.0,
+      "additionalProperties":{
+
+      }
+    },
+    "bookingDate":"2018-11-11T12:00:00Z",
+    "creditor":"PayPal Europe S.a.r.l. et Cie S.C.A",
+    "cleanPurpose":"PP.54.PP . DOMINOSPIZZ, Ihr Einkauf bei DOMINOSPIZZ",
+    "additionalProperties":{
+
+    },
+    "_class":"backend.model.Transaction"
+  },
+  {
+    "_id":{
+      "timestamp":1542806962,
+      "machineIdentifier":7161695,
+      "processIdentifier":5766,
+      "counter":12266354,
+      "time":1542806962000,
+      "date":"2018-11-21T13:29:22.000+0000",
+      "timeSecond":1542806962
+    },
+    "additionalInformation":{
+      "additionalProperties":{
+
+      }
+    },
+    "amount":{
+      "value":14.0,
+      "additionalProperties":{
+
+      }
+    },
+    "bookingDate":"2018-11-11T12:00:00Z",
+    "creditor":"PayPal Europe S.a.r.l. et Cie S.C.A",
+    "cleanPurpose":"PP.54.PP . DOMINOSPIZZ, Ihr Einkauf bei DOMINOSPIZZ",
+    "additionalProperties":{
+
+    },
+    "_class":"backend.model.Transaction"
+  },
+  {
+    "_id":{
+      "timestamp":1542806962,
+      "machineIdentifier":7161695,
+      "processIdentifier":5766,
+      "counter":12266355,
+      "time":1542806962000,
+      "date":"2018-11-21T13:29:22.000+0000",
+      "timeSecond":1542806962
+    },
+    "additionalInformation":{
+      "name":"Kreditkartenabrechnung",
+      "additionalProperties":{
+
+      }
+    },
+    "amount":{
+      "value":192.0,
+      "additionalProperties":{
+
+      }
+    },
+    "bookingDate":"2018-11-11T12:00:00Z",
+    "creditor":"Sandbox",
+    "cleanPurpose":"VISA NR.  497777XXXXXX9999 KREDITKARTEN-ABR. VOM 07.10",
+    "additionalProperties":{
+
+    },
+    "_class":"backend.model.Transaction"
+  },
+  {
+    "_id":{
+      "timestamp":1542806962,
+      "machineIdentifier":7161695,
+      "processIdentifier":5766,
+      "counter":12266365,
+      "time":1542806962000,
+      "date":"2018-11-21T13:29:22.000+0000",
+      "timeSecond":1542806962
+    },
+    "additionalInformation":{
+      "name":"Behörde",
+      "additionalProperties":{
+
+      }
+    },
+    "amount":{
+      "value":15.0,
+      "additionalProperties":{
+
+      }
+    },
+    "bookingDate":"2018-11-10T12:00:00Z",
+    "creditor":"Kasse.Hamburg",
+    "cleanPurpose":"9750233152354, HH-AA 857        DATUM 09.10.2016, 14.02 UHR1.TAN 541709",
+    "additionalProperties":{
+
+    },
+    "_class":"backend.model.Transaction"
+  },
+  {
+    "_id":{
+      "timestamp":1542806962,
+      "machineIdentifier":7161695,
+      "processIdentifier":5766,
+      "counter":12266365,
+      "time":1542806962000,
+      "date":"2018-11-21T13:29:22.000+0000",
+      "timeSecond":1542806962
+    },
+    "additionalInformation":{
+      "additionalProperties":{
+
+      }
+    },
+    "amount":{
+      "value":15.0,
+      "additionalProperties":{
+
+      }
+    },
+    "bookingDate":"2018-11-10T12:00:00Z",
+    "creditor":"Kasse.Hamburg",
+    "cleanPurpose":"9750233152354, HH-AA 857        DATUM 09.10.2016, 14.02 UHR1.TAN 541709",
+    "additionalProperties":{
+
+    },
+    "_class":"backend.model.Transaction"
+  },
+  {
+    "_id":{
+      "timestamp":1542806962,
+      "machineIdentifier":7161695,
+      "processIdentifier":5766,
+      "counter":12266370,
+      "time":1542806962000,
+      "date":"2018-11-21T13:29:22.000+0000",
+      "timeSecond":1542806962
+    },
+    "additionalInformation":{
+      "name":"Lebensmittel",
+      "additionalProperties":{
+
+      }
+    },
+    "amount":{
+      "value":16.0,
+      "additionalProperties":{
+
+      }
+    },
+    "bookingDate":"2018-11-10T12:00:00Z",
+    "creditor":"REWE Markt GmbH-ZW-NL Nord",
+    "cleanPurpose":"061017480859160181256017647 REWE SAGT DANKE. 41400049",
+    "additionalProperties":{
+
+    },
+    "_class":"backend.model.Transaction"
+  },
+  {
+    "_id":{
+      "timestamp":1542806962,
+      "machineIdentifier":7161695,
+      "processIdentifier":5766,
+      "counter":12266370,
+      "time":1542806962000,
+      "date":"2018-11-21T13:29:22.000+0000",
+      "timeSecond":1542806962
+    },
+    "additionalInformation":{
+      "additionalProperties":{
+
+      }
+    },
+    "amount":{
+      "value":16.0,
+      "additionalProperties":{
+
+      }
+    },
+    "bookingDate":"2018-11-10T12:00:00Z",
+    "creditor":"REWE Markt GmbH-ZW-NL Nord",
+    "cleanPurpose":"061017480859160181256017647 REWE SAGT DANKE. 41400049",
+    "additionalProperties":{
+
+    },
+    "_class":"backend.model.Transaction"
+  },
+  {
+    "_id":{
+      "timestamp":1542806962,
+      "machineIdentifier":7161695,
+      "processIdentifier":5766,
+      "counter":12266358,
+      "time":1542806962000,
+      "date":"2018-11-21T13:29:22.000+0000",
+      "timeSecond":1542806962
+    },
+    "additionalInformation":{
+      "name":"Handyvertrag",
+      "additionalProperties":{
+
+      }
+    },
+    "amount":{
+      "value":20.0,
+      "additionalProperties":{
+
+      }
+    },
+    "bookingDate":"2018-11-07T12:00:00Z",
+    "creditor":"TELEFONICA GERMANY G     Georg-Brauchle-Ring 23-25 80992 Muenchen",
+    "cleanPurpose":"FONIC161002ME3W2 017169732468",
+    "additionalProperties":{
+
+    },
+    "_class":"backend.model.Transaction"
+  },
+  {
+    "_id":{
+      "timestamp":1542806962,
+      "machineIdentifier":7161695,
+      "processIdentifier":5766,
+      "counter":12266358,
+      "time":1542806962000,
+      "date":"2018-11-21T13:29:22.000+0000",
+      "timeSecond":1542806962
+    },
+    "additionalInformation":{
+      "additionalProperties":{
+
+      }
+    },
+    "amount":{
+      "value":20.0,
+      "additionalProperties":{
+
+      }
+    },
+    "bookingDate":"2018-11-07T12:00:00Z",
+    "creditor":"TELEFONICA GERMANY G     Georg-Brauchle-Ring 23-25 80992 Muenchen",
+    "cleanPurpose":"FONIC161002ME3W2 017169732468",
+    "additionalProperties":{
+
+    },
+    "_class":"backend.model.Transaction"
+  },
+  {
+    "_id":{
+      "timestamp":1542806962,
+      "machineIdentifier":7161695,
+      "processIdentifier":5766,
+      "counter":12266359,
+      "time":1542806962000,
+      "date":"2018-11-21T13:29:22.000+0000",
+      "timeSecond":1542806962
+    },
+    "additionalInformation":{
+      "name":"Mietausgaben",
+      "additionalProperties":{
+
+      }
+    },
+    "amount":{
+      "value":205.0,
+      "additionalProperties":{
+
+      }
+    },
+    "bookingDate":"2018-11-06T12:00:00Z",
+    "creditor":"Verwalt. wegen Kaiserweg",
+    "cleanPurpose":"LEV 10.2016- 9475.2211 Wohngeld Oktober",
+    "additionalProperties":{
+
+    },
+    "_class":"backend.model.Transaction"
+  },
+  {
+    "_id":{
+      "timestamp":1542806962,
+      "machineIdentifier":7161695,
+      "processIdentifier":5766,
+      "counter":12266361,
+      "time":1542806962000,
+      "date":"2018-11-21T13:29:22.000+0000",
+      "timeSecond":1542806962
+    },
+    "additionalInformation":{
+      "name":"Wasser & Abwasser",
+      "additionalProperties":{
+
+      }
+    },
+    "amount":{
+      "value":35.0,
+      "additionalProperties":{
+
+      }
+    },
+    "bookingDate":"2018-11-05T12:00:00Z",
+    "creditor":"Hamburger Wasserwerke    Billhorner Deich 2",
+    "cleanPurpose":"KAISERWEG.35 E.2 Abschlag 03.10.16 Wasser 7,48 zzgl. 0,52 UST Abwasser 6,00",
+    "additionalProperties":{
+
+    },
+    "_class":"backend.model.Transaction"
+  }]

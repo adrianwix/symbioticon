@@ -1,0 +1,190 @@
+[
+  {
+    "_id":"Förderverein",
+    "sum":92.0
+  },
+  {
+    "_id":"Kredit & Darlehen",
+    "sum":14574.0
+  },
+  {
+    "_id":"Kfz-Werkstatt",
+    "sum":292.0
+  },
+  {
+    "_id":"Sonstige Versicherung (Fallback)",
+    "sum":458.0
+  },
+  {
+    "_id":"Lebensmittel",
+    "sum":1757.0
+  },
+  {
+    "_id":"Private Rentenversicherung (Beitrag)",
+    "sum":154.0
+  },
+  {
+    "_id":"Lebensversicherung",
+    "sum":792.0
+  },
+  {
+    "_id":"Öffentlicher Nahverkehr",
+    "sum":10.0
+  },
+  {
+    "_id":"Verein (Fallback)",
+    "sum":54.0
+  },
+  {
+    "_id":"Software (Gaming, auch Online-Spiele)",
+    "sum":591.0
+  },
+  {
+    "_id":"Tankstelle / Treibstoffkosten",
+    "sum":1945.0
+  },
+  {
+    "_id":"Online-Shop (Fallback)",
+    "sum":14017.0
+  },
+  {
+    "_id":"Parkgebühren",
+    "sum":20.0
+  },
+  {
+    "_id":"Sportverein",
+    "sum":172.0
+  },
+  {
+    "_id":"Energie (Fallback)",
+    "sum":6875.0
+  },
+  {
+    "_id":"Mietausgaben",
+    "sum":3835.0
+  },
+  {
+    "_id":"Schnell-Restaurant",
+    "sum":14.0
+  },
+  {
+    "_id":"Mitgliedschaft (Fallback)",
+    "sum":114.0
+  },
+  {
+    "_id":"Kfz-Versicherung",
+    "sum":1054.0
+  },
+  {
+    "_id":"Kreditkartenabrechnung",
+    "sum":13388.0
+  },
+  {
+    "_id":"Krankenversicherung (privat)",
+    "sum":24.0
+  },
+  {
+    "_id":"Lieferdienst (Essen & Trinken)",
+    "sum":155.0
+  },
+  {
+    "_id":"Handyvertrag",
+    "sum":790.0
+  },
+  {
+    "_id":null,
+    "sum":46269.0
+  },
+  {
+    "_id":"Fitnessstudio",
+    "sum":120.0
+  },
+  {
+    "_id":"Wasser & Abwasser",
+    "sum":1351.0
+  },
+  {
+    "_id":"Verkehrsclub",
+    "sum":98.0
+  },
+  {
+    "_id":"Warenhaus",
+    "sum":935.0
+  },
+  {
+    "_id":"Kabel- & Rundfunkgebühren",
+    "sum":425.0
+  },
+  {
+    "_id":"Flug",
+    "sum":128.0
+  },
+  {
+    "_id":"Einkaufscenter",
+    "sum":27.0
+  },
+  {
+    "_id":"Hausratversicherung",
+    "sum":230.0
+  },
+  {
+    "_id":"Apotheke/Medikamente",
+    "sum":19.0
+  },
+  {
+    "_id":"Geldautomat (Auszahlung)",
+    "sum":4854.0
+  },
+  {
+    "_id":"Kfz-Steuer",
+    "sum":168.0
+  },
+  {
+    "_id":"Modegeschäft",
+    "sum":450.0
+  },
+  {
+    "_id":"Elektrofachhandel",
+    "sum":549.0
+  },
+  {
+    "_id":"Zahlungsart (Sparkassenkonto)",
+    "sum":52.0
+  },
+  {
+    "_id":"Behörde",
+    "sum":345.0
+  },
+  {
+    "_id":"Schuhgeschäft",
+    "sum":105.0
+  },
+  {
+    "_id":"Baumarkt",
+    "sum":125.0
+  },
+  {
+    "_id":"Grundsteuer",
+    "sum":329.0
+  },
+  {
+    "_id":"Stellplatz / Garage",
+    "sum":120.0
+  },
+  {
+    "_id":"Lohn & Gehalt",
+    "sum":6956116.0
+  },
+  {
+    "_id":"Internet, Festnetz & TV (Fallback)",
+    "sum":630.0
+  },
+  {
+    "_id":"Online-Dienst (Fallback)",
+    "sum":21.0
+  },
+  {
+    "_id":"Zinsen (Kredit & Darlehen)",
+    "sum":2.0
+  }
+]
