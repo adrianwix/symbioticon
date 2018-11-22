@@ -44,3 +44,32 @@ export const colorDomain = [
   "household",
   "living"
 ];
+export const user = {
+  balance: 3000,
+  remaining: 500,
+  expended: 2500 // All transactions sum
+};
+export const AccountInfo = {
+  name: "Living",
+  budget: 1000,
+  expense: 700,
+  color: "#123321",
+  remaining: "",
+  objectives: [
+    {
+      // If completed true add rewared to budget
+      description: "Running 5km",
+      reward: 50,
+      completed: false
+    }
+  ]
+};
+export const transaction = [
+  {
+    date: "10/10/10",
+    amount: 150,
+    beneficiary: "Oma",
+    category: "Sugar",
+    account: "Living"
+  }
+];

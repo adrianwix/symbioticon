@@ -2,7 +2,10 @@ import React, { Component } from "react";
 // import PropTypes from "prop-types";
 import Layout from "../Layout";
 import Histogram from "./Histogram";
-import PieChart from "./PieChart";
+import PieChart from "../Charts/PieChart";
+import BarStackChart from "./BarStackChart";
+import { setSize } from "../utils";
+
 class Dashboard extends Component {
   constructor(props) {
     super(props);
@@ -10,18 +13,8 @@ class Dashboard extends Component {
       size: 300
     };
   }
-  /**
-   *
-   *	@param size Size of the current object
-   */
-  setSize = size => {
-    const componentWidth =
-      document.getElementsByClassName("col-4")[0].offsetWidth - 30;
-    if (componentWidth !== size) {
-      this.setState({
-        size: componentWidth
-      });
-    }
+  setSize = () => {
+    return setSize("div.col-4", this.state.size);
   };
   render() {
     const { size } = this.state;
@@ -40,7 +33,7 @@ class Dashboard extends Component {
               <PieChart setSize={this.setSize} size={size} />
             </div>
             <div className="col-4">
-              <PieChart setSize={this.setSize} size={size} />
+              <BarStackChart setSize={this.setSize} size={size} />
             </div>
           </div>
         </div>

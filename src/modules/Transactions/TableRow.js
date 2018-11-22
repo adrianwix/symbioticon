@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 
 /**
  *
+ * @param account Name of the subaccount
  * @param date Date of the operation
  * @param amount Cuantity transfered
  * @param beneficiary Person who receive the money
@@ -10,10 +11,11 @@ import PropTypes from "prop-types";
  * @returns {JSX} Html <tr>
  * @constructor
  */
-const TableRow = ({ date, amount, beneficiary, category }) => {
+const TableRow = ({ account, date, amount, beneficiary, category }) => {
   return (
     <React.Fragment>
       <tr>
+        <th className="text-success">{account}</th>
         <th>{date}</th>
         <td>{amount + "€"}</td>
         <td>{beneficiary}</td>
