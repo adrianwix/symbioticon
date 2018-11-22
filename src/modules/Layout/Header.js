@@ -48,14 +48,14 @@ class Header extends Component {
                 </Link>
               </li>
             </ul>
-            <div>
-              <Link to="/log-in" className="btn btn-outline-primary mx-2">
-                Log in
-              </Link>
-              <Link to="/sign-up" className="btn btn-primary mx-2">
-                Sign up
-              </Link>
-            </div>
+            {/*<div>*/}
+            {/*<Link to="/log-in" className="btn btn-outline-primary mx-2">*/}
+            {/*Log in*/}
+            {/*</Link>*/}
+            {/*<Link to="/sign-up" className="btn btn-primary mx-2">*/}
+            {/*Sign up*/}
+            {/*</Link>*/}
+            {/*</div>*/}
           </div>
         </nav>
       </div>

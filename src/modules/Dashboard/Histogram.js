@@ -6,30 +6,36 @@ import {
   XAxis,
   YAxis,
   VerticalGridLines,
-  HorizontalGridLines
+  HorizontalGridLines,
+  Hint
 } from "react-vis";
 import { colorDomain, colorRange, dataCategories } from "../data/chartFakeData";
 class Histogram extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      value: null
+    };
+  }
   componentDidMount() {
     const { setSize, size } = this.props;
     setSize(size);
   }
+  onNearestXY = value => this.setState({ value });
 
   render() {
-    const { size } = this.props;
-    const data = dataCategories.map(point => ({
-      x: point.x, // Category
-      y: point.y, // Amount
-      color: point.x // Account color
-    }));
+    const { size, data } = this.props;
+    const color = data.map(obj => obj.color);
+
     return (
       <XYPlot
         height={size}
         width={size}
         colorType="category"
         colorRange={colorRange}
-        colorDomain={colorDomain}
+        colorDomain={colorRange}
         xType="ordinal"
+        onNearestXY={this.onNearestXY}
       >
         <VerticalGridLines />
         <HorizontalGridLines />
@@ -39,6 +45,7 @@ class Histogram extends Component {
           className="vertical-bar-series-example"
           data={data}
         />
+        {this.state.value ? <Hint value={this.state.value} /> : null}
       </XYPlot>
     );
   }

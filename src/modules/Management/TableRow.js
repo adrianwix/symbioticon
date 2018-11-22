@@ -12,15 +12,13 @@ import PropTypes from "prop-types";
  * @returns {JSX} Html <tr>
  * @constructor
  */
-const TableRow = ({ account, date, amount, beneficiary, category, color }) => {
+const TableRow = ({ account, date, amount, color }) => {
   return (
     <React.Fragment>
       <tr>
         <th style={{ color: color }}>{account}</th>
         <th>{date}</th>
-        <td>{amount + "€"}</td>
-        <td>{beneficiary}</td>
-        <td>{category}</td>
+        <td>{amount / 100 + "€"}</td>
       </tr>
     </React.Fragment>
   );
