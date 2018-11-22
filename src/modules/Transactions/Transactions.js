@@ -83,7 +83,6 @@ class Transactions extends Component {
       <Layout header={header}>
         <div className="container">
           <h1 className="display-3 my-3">Transactions</h1>
-          <button onClick={this.createBudget}>Budget</button>
           <div className="table-responsive">
             <table className="table table-hover">
               <thead className="thead-dark">

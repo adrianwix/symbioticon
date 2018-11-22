@@ -4,9 +4,10 @@ import Layout from "../Layout";
 import { setSize } from "../utils";
 import PieChart from "../Charts/PieChart";
 import axios from "axios";
-import { sumBy } from "lodash/math";
+import { round, sumBy } from "lodash/math";
 import TableRow from "../Management/TableRow";
 import moment from "moment";
+import BarStackChart from "../Charts/BarStackChart";
 
 class Management extends Component {
   constructor(props) {
@@ -15,7 +16,7 @@ class Management extends Component {
       size: 300,
       transactions: [],
       budget: [],
-      money: 100000,
+      money: 1000,
       balance: 0
     };
   }
@@ -27,14 +28,14 @@ class Management extends Component {
       "http://localhost:5000/api/ahoi/getbudgets/all"
     );
     let expenses = sumBy(budget.data, "expended");
-    let balance = this.state.money + expenses;
+    let balance = this.state.money + expenses / 100;
     this.setState({ transactions: data.data, budget: budget.data, balance });
   }
   setSize = selector => {
     return setSize("div.col-4", this.state.size);
   };
   render() {
-    const { size, transactions } = this.state;
+    const { size, transactions, budget } = this.state;
     const header = {
       title: "Management"
     };
@@ -48,6 +49,16 @@ class Management extends Component {
         amount: obj.amount.value
       };
     });
+    const StackedData = budget.map(obj => ({
+      x: obj.name,
+      y: (obj.expended * -1) / 100,
+      color: obj.color
+    }));
+    const MaxStackedData = budget.map(obj => ({
+      x: obj.name,
+      y: (obj.budget + obj.expended) / 100,
+      color: "#ff6e7a"
+    }));
     return (
       <Layout header={header}>
         <div className="container">
@@ -60,7 +71,7 @@ class Management extends Component {
                     Balance
                   </h3>
                   <h5 className="card-title display-2 font-weight-bold text-success">
-                    {this.state.balance}€
+                    {round(this.state.balance, 2)}€
                   </h5>
                 </div>
               </div>
@@ -79,7 +90,7 @@ class Management extends Component {
                         style={{ background: obj.color }}
                         className="badge badge-pill"
                       >
-                        {obj.budget}€
+                        {obj.budget / 100}€
                       </span>
                     </li>
                   ))}
@@ -121,7 +132,13 @@ class Management extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-md-6" />
+            <div className="col-md-6 d-flex justify-content-center align-content-center">
+              <BarStackChart
+                data={{ expended: StackedData, budget: MaxStackedData }}
+                setSize={this.setSize}
+                size={500}
+              />
+            </div>
           </div>
         </div>
       </Layout>

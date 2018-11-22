@@ -18,7 +18,7 @@ const TableRow = ({ account, date, amount, beneficiary, category, color }) => {
       <tr>
         <th style={{ color: color }}>{account}</th>
         <th>{date}</th>
-        <td>{amount + "€"}</td>
+        <td>{amount / 100 + "€"}</td>
         <td>{beneficiary}</td>
         <td>{category}</td>
       </tr>
