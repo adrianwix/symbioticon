@@ -27,8 +27,8 @@ class App extends Component {
         <Router>
           <Switch>
             <Route path="/" component={Dashboard} exact />
-            <Route path="/transactions" component={Transactions} exact />
-            <Route path="/management" component={Management} exact />
+            <Route path="/buchungen" component={Transactions} exact />
+            <Route path="/detailansicht" component={Management} exact />
           </Switch>
         </Router>
       </Provider>

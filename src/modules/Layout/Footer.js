@@ -3,14 +3,7 @@ import React, { Component } from "react";
 
 class Footer extends Component {
   render() {
-    return (
-      <footer
-        style={{ height: "50px" }}
-        className="bg-dark d-flex justify-content-between align-content-center p-1"
-      >
-        <button className="btn btn-success">Back to top</button>
-      </footer>
-    );
+    return <footer style={{ height: "50px" }} className="bg-dark" />;
   }
 }
 

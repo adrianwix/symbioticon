@@ -38,13 +38,13 @@ class Header extends Component {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/transactions" className="nav-link">
-                  Transactions
+                <Link to="/buchungen" className="nav-link">
+                  Buchungen
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/management" className="nav-link">
-                  Management
+                <Link to="/detailansicht" className="nav-link">
+                  Detailansicht
                 </Link>
               </li>
             </ul>

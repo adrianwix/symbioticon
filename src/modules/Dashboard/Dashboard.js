@@ -49,10 +49,10 @@ class Dashboard extends Component {
     return (
       <Layout header={header}>
         <div className="container">
-          <h1>DASHBOARD</h1>
+          <h1 className="display-3">DASHBOARD</h1>
           <div className="row">
             <div className="col-4">
-              <h2>Expended</h2>
+              <h3>Ausgaben</h3>
               <Histogram
                 data={HistogramData}
                 setSize={this.setSize}
@@ -60,10 +60,11 @@ class Dashboard extends Component {
               />
             </div>
             <div className="col-4">
+              <h3>Verteilung</h3>
               <PieChart data={budget} setSize={this.setSize} size={size} />
             </div>
             <div className="col-4">
-              <h3>Max Budget</h3>
+              <h3>Meine Budgets</h3>
               <BarStackChart
                 data={{ expended: StackedData, budget: MaxStackedData }}
                 setSize={this.setSize}

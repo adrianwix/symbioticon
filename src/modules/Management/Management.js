@@ -34,13 +34,48 @@ class Management extends Component {
   setSize = selector => {
     return setSize("div.col-4", this.state.size);
   };
+  loadData = () => {
+    let newData = [
+      {
+        budget_category: "Essen",
+        amount: {
+          value: -1000
+        },
+        date: "22.11.2018"
+      },
+      {
+        budget_category: "Essen",
+        amount: {
+          value: -1400
+        },
+        date: "22.11.2018"
+      }
+    ];
+    const index = this.state.budget.map(item => item.name).indexOf("Essen");
+    let copyBudget = [...this.state.budget];
+    copyBudget[index] = {
+      budget: 9000,
+      color: "#F15C17",
+      expended: -5911, //8311
+      name: "Essen",
+      __v: 0,
+      _id: "5bf65e54d8012b6d20291cd9"
+    };
+    this.setState(state => ({
+      transactions: [...newData, ...state.transactions],
+      balance: state.balance - 24,
+      budget: copyBudget
+    }));
+  };
   render() {
     const { size, transactions, budget } = this.state;
+    console.log(budget);
     const header = {
       title: "Management"
     };
     let budgetColor = {};
     this.state.budget.forEach(obj => (budgetColor[obj.name] = obj.color));
+    // Add 2 transactions to transactions.....
     let last10 = transactions.slice(0, 10);
     let flowData = last10.map(obj => {
       return {
@@ -62,13 +97,15 @@ class Management extends Component {
     return (
       <Layout header={header}>
         <div className="container">
-          <h1 className="display-3">Management</h1>
+          <h1 onClick={this.loadData} className="display-3">
+            Detailansicht
+          </h1>
           <div className="row d-flex mb-4">
             <div className="col-md-4">
               <div className="card h-100">
                 <div className="card-body text-center d-flex flex-column justify-content-center">
                   <h3 className="card-subtitle mb-2 font-weight-normal">
-                    Balance
+                    Kontostand
                   </h3>
                   <h5 className="card-title display-2 font-weight-bold text-success">
                     {round(this.state.balance, 2)}€
@@ -80,14 +117,15 @@ class Management extends Component {
               <div className="card h-100">
                 <h3 className="p-3">Budgets</h3>
                 <ul className="list-group h-100">
-                  {this.state.budget.map(obj => (
+                  {this.state.budget.map((obj, index) => (
                     <li
-                      style={{ "flex-grow": "1" }}
+                      key={index}
+                      style={{ flexGrow: "1" }}
                       className="list-group-item d-flex justify-content-between align-items-center"
                     >
                       {obj.name}:
                       <span
-                        style={{ background: obj.color }}
+                        style={{ background: obj.color, color: "#fff" }}
                         className="badge badge-pill"
                       >
                         {obj.budget / 100}€
@@ -98,7 +136,7 @@ class Management extends Component {
               </div>
             </div>
             <div className="col-md-4 h-100 balance-chart">
-              <h3 className="p-2">Money Distribution</h3>
+              <h3 className="p-2">Verteilung</h3>
               <PieChart
                 data={this.state.budget}
                 size={size}
@@ -114,9 +152,9 @@ class Management extends Component {
                   <table className="table table-hover">
                     <thead className="thead-dark">
                       <tr>
-                        <th scope="col">Account</th>
-                        <th scope="col">Date</th>
-                        <th scope="col">Amount</th>
+                        <th scope="col">Kategorie</th>
+                        <th scope="col">Datum</th>
+                        <th scope="col">Betrag</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -132,7 +170,8 @@ class Management extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 d-flex justify-content-center align-content-center">
+            <div className="col-md-6">
+              <h3>Budgetauslastung</h3>
               <BarStackChart
                 data={{ expended: StackedData, budget: MaxStackedData }}
                 setSize={this.setSize}
