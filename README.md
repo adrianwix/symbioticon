@@ -4,6 +4,14 @@ Server was made with NodeJS, Express and MongoDB.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Team members
+
+- Sergey Desser
+- Anton Lyubimov
+- Sebastian Rüsch
+- Maximilian Vorwieger
+- Adrian Wix
+
 ## Available Scripts
 
 In the project directory, you can run:
