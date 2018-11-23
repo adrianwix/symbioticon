@@ -12,6 +12,9 @@ import { applyMiddleware, compose, createStore } from "redux";
 
 const initialState = {};
 const middlewares = [thunk];
+/**
+ * Redux store could not be implemented
+ */
 const store = createStore(
   state => state,
   initialState,
